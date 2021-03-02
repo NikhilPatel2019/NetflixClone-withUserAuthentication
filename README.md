@@ -12,11 +12,11 @@ Netflix Clone build with React JS and authentication using Firebase. Clone is cr
          II. Copy API key and paste it in request.js file.
 
 ### Step 4 - Running the Project           
-          npm start <br />
-          Runs the app in the development mode.<br />
+          npm start 
+          Runs the app in the development mode.
           Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-          The page will reload if you make edits.<br />
+          The page will reload if you make edits.
           You will also see any lint errors in the console.
 
 .
