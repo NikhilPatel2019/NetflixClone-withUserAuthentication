@@ -8,8 +8,8 @@ Netflix Clone build with React JS and authentication using Firebase. Clone is cr
          You need to create project on Firebase to get API and get Firebase config information
 
 ### Step 3 - Adding firebase API and webconfig information in project
-         I. Copy the firebaseConfig information from firebase site and paste it in firebase.js file in src     folder.<br />
-         II. Copy API key and paste it in request.js file. <br />  
+         I. Copy the firebaseConfig information from firebase site and paste it in firebase.js file in src folder.
+         II. Copy API key and paste it in request.js file.
 
 ### Step 4 - Running the Project           
           npm start <br />
