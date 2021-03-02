@@ -1,0 +1,94 @@
+.loginscreen{
+    position: relative;
+    height: 100%;
+    background: url('https://gobioskop.xyz/wp-content/uploads/2021/01/bg.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.loginscreen-logo{
+    position: fixed;
+    width: 150px;
+    left: 0;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginscreen-button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.loginscreen-gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0, 0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0, 0.8) 100%
+    );
+}
+
+.loginscreen-body{
+    position: absolute;
+    top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+
+.loginscreen-body>h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginscreen-body>h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.loginscreen-body>h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.loginscreen-input > form > input{
+    outline-width: 0em;
+    outline-style: none;
+    height: 50px;
+    width: 50%;    
+    border: none;
+    max-width: 600px;;
+    padding-left: 10px;
+}
+
+.loginscreen-getstarted{
+    padding: 16px 20px 18px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 500;    
+}
+
+.loginscreen-getstarted:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #fd131f;
+}
